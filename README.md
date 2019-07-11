@@ -9,6 +9,8 @@ docker-compose ps
 docker ps  
 docker images  
 docker rmi xxxxx  
+docker stop  
+docker down  
 <br><br><br>
 
 
