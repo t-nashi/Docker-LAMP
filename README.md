@@ -4,8 +4,8 @@ xamppと同様の環境をDockerで準備する
 
 
 ▽動作確認済み
-* macOS Mojave （バージョン 10.14.4）、メモリ： 8GB
-* Windows 10 Pro 64bit、メモリ： 32GB
+* macOS Mojave （バージョン 10.14.4）、メモリ： 8GB、Docker： v18.09.2、docker-compose： v1.23.2
+* Windows 10 Pro 64bit、メモリ： 32GB、Docker： v18.06.1-ce、docker-compose： v1.23.2
 <br><br><br>
 
 
@@ -43,17 +43,22 @@ text
 <br><br><br>
 
 
-## 注意 （Cautionn）
+## 事前準備 （Provision）
 
-* text
+* docker と docker-compose が利用できるようになっていること
 <br><br><br>
 
 
 ## インストール （Installation）
 
-1. text
-2. text
-3. text
+1. このページの `Clone or download` ボタンよりリポジトリのクローンもしくはZIPダウンロード
+2. ZIPダウンロードの場合は解凍
+3. 解凍して出来たフォルダをDockerコマンドが有効な場所に置く
+4. コマンドプロンプト（win）/ ターミナル（mac）を起動し、「3」のフォルダ内へ移動
+5. `docker-compose up -d` コマンドを実行（しばらくインストールが走る）
+6. ブラウザからwebサーバーアクセスを確認 → http://localhost/
+7. ブラウザからwebサーバーアクセス＆php実行を確認 → http://localhost/index.php
+8. ブラウザからphpMyadminとサンプルDBテーブルを確認 → http://localhost:8080/
 <br><br><br>
 
 
@@ -75,6 +80,8 @@ text
 
 
 ## コマンド
+* $ docker version / docker -v  
+* $ docker-compose version / docker-compose -v  
 * $ docker-compose up -d  
 * $ docker-compose ps  
 * $ docker ps  
