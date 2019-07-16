@@ -3,14 +3,83 @@ xamppと同様の環境をDockerで準備する
 <br><br><br>
 
 
+▽動作確認済み
+* macOS Mojave （バージョン 10.14.4）、メモリ： 8GB
+* Windows 10 Pro 64bit、メモリ： 32GB
+<br><br><br>
 
-docker-compose up -d  
-docker-compose ps  
-docker ps  
-docker images  
-docker rmi xxxxx  
-docker stop  
-docker down  
+
+
+## 構成
+
+Docker-LAMP
+├ docker-compose.yml
+├ docker
+│　 ├ db
+│ 　│ 　└ sql
+│ 　│ 　 　└ create-sample-table.sql
+│　 ├ nginx
+│ 　│ 　└ default.conf
+│　 └ php
+│ 　 　 ├ php.ini
+│ 　  　└ Dockerfile
+└ server
+ 　 ├ index.html
+ 　 └ index.php
+
+
+## 解説サイト
+
+...準備中...
+<br><br><br>
+
+
+
+## 動作イメージ
+
+text
+<br><br><br>
+
+
+## 注意 （Cautionn）
+
+* text
+<br><br><br>
+
+
+## インストール （Installation）
+
+1. text
+2. text
+3. text
+<br><br><br>
+
+
+
+## 使用法 （Usage）
+
+text
+<br><br><br>
+
+
+
+
+## 仕様 (Specification)
+
+* `xxx` text
+<br><br><br>
+
+
+
+
+## コマンド
+* $ docker-compose up -d  
+* $ docker-compose ps  
+* $ docker ps  
+* $ docker images  
+* $ docker rmi xxxxx  
+* $ docker stop  
+* $ docker down  
 <br><br><br>
 
 
@@ -22,7 +91,7 @@ docker down
 
 
 
------
+## 参考
 ◆docker-compose による nginx + HTTP/2 + PHP-FPM7 + MySQL 環境の構築方法 &#8211; PSYENCE:MEDIA  
 https://tech.recruit-mp.co.jp/infrastructure/post-12795/  
 
