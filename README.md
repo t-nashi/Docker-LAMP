@@ -17,15 +17,15 @@ Docker-LAMP
 ├ docker  
 │　 ├ db  
 │ 　│ 　└ sql  
-│ 　│ 　 　└ create-sample-table.sql  
+│ 　│ 　 　└ `create-sample-table.sql`  
 │　 ├ nginx  
-│ 　│ 　└ default.conf  
+│ 　│ 　└ `default.conf`  
 │　 └ php  
-│ 　　　 ├ php.ini  
-│ 　　 　└ Dockerfile  
+│ 　　　 ├ `php.ini`  
+│ 　　 　└ `Dockerfile`  
 └ server  
- 　 ├ index.html  
- 　 └ index.php  
+ 　 ├ `index.html`  
+ 　 └ `index.php`  
 
 
 ## 解説サイト
