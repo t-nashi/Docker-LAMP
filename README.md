@@ -74,40 +74,40 @@ docker と docker-compose が利用できるようになっていること
 
 <table>
  <tr>
-  <th class="text-left">$ docker version / docker -v</th>
-  <td>normal</td>
+  <td><b>$ docker version / docker -v</b></td>
+  <td>Docker のバージョン確認</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker-compose version / docker-compose -v</th>
-  <td>normal</td>
+  <td><b>$ docker-compose version / docker-compose -v</b></td>
+  <td>docker-compose のバージョン確認</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker-compose up -d</th>
-  <td>normal</td>
+  <td><b>$ docker-compose up -d</b></td>
+  <td>コンテナの作成と開始</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker-compose ps</th>
-  <td>normal</td>
+  <td><b>$ docker-compose ps</b></td>
+  <td>コンテナ一覧 （docker-compose）</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker ps</th>
-  <td>normal</td>
+  <td><b>$ docker ps</b></td>
+  <td>コンテナ一覧 （docker）</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker images</th>
-  <td>normal</td>
+  <td><b>$ docker images</b></td>
+  <td>イメージ一覧 （docker）</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker rmi xxxxx</th>
-  <td>normal</td>
+  <td><b>$ docker rmi xxxxx</b></td>
+  <td>イメージの削除 （docker）</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker stop</th>
-  <td>normal</td>
+  <td><b>$ docker stop</b></td>
+  <td>サービスの停止</td>
  </tr>
  <tr>
-  <th class="text-left">$ docker down</th>
-  <td>normal</td>
+  <td><b>$ docker down</b></td>
+  <td>コンテナの停止</td>
  </tr>
 </table>  
 <br><br><br>
