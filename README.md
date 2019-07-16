@@ -45,11 +45,18 @@ text
 
 ## 事前準備 （Provision）
 
-* docker と docker-compose が利用できるようになっていること
+docker と docker-compose が利用できるようになっていること
+
+* [【参考】[Win] Docker を Windows で使えるようにする | これを読めば思い出す](https://www.koreyome.com/web/docker-install-for-windows/)
+* [【参考】[Mac] Docker を Mac で使えるようにする | これを読めば思い出す](https://www.koreyome.com/web/docker-install-desktop-for-mac/)
+
+
+
+
 <br><br><br>
 
 
-## インストール （Installation）
+## 使用法 （Usage）
 
 1. このページの `Clone or download` ボタンよりリポジトリのクローンもしくはZIPダウンロード
 2. ZIPダウンロードの場合は解凍
@@ -63,36 +70,47 @@ text
 
 
 
-## 使用法 （Usage）
+## コマンド一覧
 
-text
+<table>
+ <tr>
+  <th class="text-left">$ docker version / docker -v</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker-compose version / docker-compose -v</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker-compose up -d</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker-compose ps</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker ps</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker images</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker rmi xxxxx</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker stop</th>
+  <td>normal</td>
+ </tr>
+ <tr>
+  <th class="text-left">$ docker down</th>
+  <td>normal</td>
+ </tr>
+</table>  
 <br><br><br>
-
-
-
-
-## 仕様 (Specification)
-
-* `xxx` text
-<br><br><br>
-
-
-
-
-## コマンド
-* $ docker version / docker -v  
-* $ docker-compose version / docker-compose -v  
-* $ docker-compose up -d  
-* $ docker-compose ps  
-* $ docker ps  
-* $ docker images  
-* $ docker rmi xxxxx  
-* $ docker stop  
-* $ docker down  
-<br><br><br>
-
-
-
 
 
 
