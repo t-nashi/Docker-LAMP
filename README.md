@@ -37,12 +37,6 @@ Docker-LAMP
 
 
 
-## 動作イメージ
-
-text
-<br><br><br>
-
-
 ## 事前準備 （Provision）
 
 docker と docker-compose が利用できるようになっていること
