@@ -11,21 +11,26 @@ xamppと同様の環境をDockerで準備する
 
 
 ## 構成
+```
+Docker-LAMP
+├── docker-compose.yml
+├── docker
+│   ├── db
+│   │   └── sql
+│   │       └── *create-sample-table.sql
+│   ├── nginx
+│   │   └── *default.conf
+│   └── php
+│       ├── *php.ini
+│       └── *Dockerfile
+└── server
+    ├── *index.html
+    └── *index.php
+```
 
-Docker-LAMP  
-├ docker-compose.yml  
-├ docker  
-│　 ├ db  
-│ 　│ 　└ sql  
-│ 　│ 　 　└ `create-sample-table.sql`  
-│　 ├ nginx  
-│ 　│ 　└ `default.conf`  
-│　 └ php  
-│ 　　　 ├ `php.ini`  
-│ 　　 　└ `Dockerfile`  
-└ server  
- 　 ├ `index.html`  
- 　 └ `index.php`  
+
+
+
 <br><br><br>
 
 
