@@ -37,7 +37,7 @@ Docker-LAMP
 
 ## 解説サイト
 
-...準備中...
+* [xampp と同様のLAMP環境を Docker で構築する | これを読めば思い出す](https://www.koreyome.com/web/docker-environment-like-xampp/)
 <br><br><br>
 
 
