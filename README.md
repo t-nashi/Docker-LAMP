@@ -1,5 +1,6 @@
 # Docker-LAMP
-xamppと同様の環境をDockerで準備する
+xamppと同様の環境をDockerで準備する<br>
+※ エラーになる場合は最新のコチラをお試しください → [Docker-LAMP-202004](https://github.com/t-nashi/Docker-LAMP-202004)
 <br><br><br>
 
 
